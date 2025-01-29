@@ -14,4 +14,4 @@ jobs:
           npx stylelint "**/*.css"
       - name: Test Build
         run: |
-          npc parcel build "./src/index.html: --dist-dir "./dist" --public-url "./"
+          npX parcel build "./src/index.html: --dist-dir "./dist" --public-url "./"
